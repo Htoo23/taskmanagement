@@ -1,10 +1,3 @@
-C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.csproj.AssemblyReference.cache
-C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.GeneratedMSBuildEditorConfig.editorconfig
-C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.AssemblyInfoInputs.cache
-C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.AssemblyInfo.cs
-C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.csproj.CoreCompileInputs.cache
-C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.MvcApplicationPartsAssemblyInfo.cs
-C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.MvcApplicationPartsAssemblyInfo.cache
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\appsettings.Development.json
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\appsettings.json
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\TaskmanagementSystem.staticwebassets.endpoints.json
@@ -40,6 +33,7 @@ C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\Microsoft.OpenApi.dll
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\Octopus.Client.dll
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -63,6 +57,14 @@ C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\api_ace\TaskmanagementSystem\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.csproj.AssemblyReference.cache
+C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.AssemblyInfoInputs.cache
+C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.AssemblyInfo.cs
+C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.csproj.CoreCompileInputs.cache
+C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.MvcApplicationPartsAssemblyInfo.cs
+C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.MvcApplicationPartsAssemblyInfo.cache
+C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\TaskmanagementSystem.sourcelink.json
 C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\scopedcss\bundle\TaskmanagementSystem.styles.css
 C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\staticwebassets.build.json
 C:\api_ace\TaskmanagementSystem\obj\Debug\net7.0\staticwebassets.development.json

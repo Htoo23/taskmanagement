@@ -9,16 +9,24 @@ namespace TaskmanagementSystem.Application.UseCases
 {
     public class UpdateTaskProgressUseCase
     {
-        private readonly ITaskRepository _taskRepository;
-
-        public UpdateTaskProgressUseCase(ITaskRepository taskRepository)
+        private readonly IRepository<TaskItem> _repository;
+        public interface ITaskRepository
         {
-            _taskRepository = taskRepository;
+            Task UpdateProgressAsync(int taskId, string progressStatus);
+        }
+
+
+        public UpdateTaskProgressUseCase(IRepository<TaskItem> repository)
+        {
+            _repository = repository ?? throw new ArgumentNullException(nameof(repository));
         }
 
         public async Task ExecuteAsync(int taskId, string progressStatus)
         {
-            await _taskRepository.UpdateProgressAsync(taskId, progressStatus);
+            var task = await _repository.GetByIdAsync(taskId);
+            task.ProgressStatus = progressStatus;
+            await _repository.UpdateAsync(task);
+
         }
     }
-}
+    }

@@ -83,6 +83,27 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "TaskmanagementSystem.Controllers.TasksController",
+    "Method": "UpdateProgress",
+    "RelativePath": "api/Tasks/{id}/progress",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "progressStatus",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "TaskmanagementSystem.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

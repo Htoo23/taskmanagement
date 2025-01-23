@@ -10,10 +10,14 @@ namespace TaskmanagementSystem.Controllers
     public class TasksController : ControllerBase
     {
         private readonly GetTasksUseCase _getTasksUseCase;
+        private readonly UpdateTaskProgressUseCase _updateTaskProgressUseCase;
 
-        public TasksController(GetTasksUseCase getTasksUseCase)
+
+        public TasksController(GetTasksUseCase getTasksUseCase, UpdateTaskProgressUseCase updateTaskProgressUseCase)
         {
             _getTasksUseCase = getTasksUseCase;
+            _updateTaskProgressUseCase = updateTaskProgressUseCase;
+
         }
 
         [HttpGet]
