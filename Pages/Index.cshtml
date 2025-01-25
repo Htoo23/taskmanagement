@@ -1,0 +1,47 @@
+﻿@page
+@model TaskmanagementSystem.Pages.IndexModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h1>Task Dashboard</h1>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Priority</th>
+            <th>Deadline</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.TaskViewModel.Tasks != null && Model.TaskViewModel.Tasks.Count > 0)
+        {
+            @foreach (var task in Model.TaskViewModel.Tasks)
+            {
+                <tr>
+                    <td>@task.Title</td>
+                    <td>@task.Description</td>
+                    <td>@task.Priority</td>
+                    <td>@task.Deadline</td>
+                    <td>@task.Progress</td>
+                    <td>
+                        <a href="/TaskDetails?id=@task.Id" class="btn btn-info btn-sm">Details</a>
+                        <a href="/EditTask?id=@task.Id" class="btn btn-warning btn-sm">Edit</a>
+                        <a href="/DeleteTask?id=@task.Id" class="btn btn-danger btn-sm">Delete</a>
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">No tasks found.</td>
+            </tr>
+        }
+    </tbody>
+</table>
